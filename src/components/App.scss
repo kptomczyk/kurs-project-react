@@ -1,0 +1,9 @@
+@import "./styles.scss";
+
+$primary: #1e74fd !default;
+
+.test {
+    margin: auto;
+    background-color: $primary;
+    color: red;
+}
