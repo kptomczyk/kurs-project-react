@@ -4,7 +4,7 @@ import { NotificationsDropdown } from "./NotificationsDropdown";
 export const Notifications = () => {
   const [hasNotifications, setHasNotifications] = useState(false);
 
-  // true lub false = boolean
+  // true lub false = boolean //
 
   const toggleHasNotifications = () =>
     setHasNotifications((prevHasNoti) => !prevHasNoti);
@@ -34,3 +34,5 @@ export const Notifications = () => {
     </>
   );
 };
+
+
